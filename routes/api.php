@@ -3,7 +3,7 @@
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', function (Request $request) {
+Route::post('/', function (Request $request) {
     return response()->json([
         'status' => true,
         'token' => "12345",
