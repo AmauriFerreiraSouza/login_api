@@ -18,7 +18,7 @@ class UserSeeder extends Seeder
         if (!User::where('email', 'amauiridesouzaferreira@gmail.com')->first()) {
             $admin = User::create([
                 'name' => 'Amauri',
-                'email' => 'amauiridesouzaferreira@gmail.com',
+                'email' => 'amauridesouzaferreira@gmail.com',
                 'password' => Hash::make('12345a', ['rounds' => 12])
             ]);
         }
